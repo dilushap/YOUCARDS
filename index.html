@@ -9,29 +9,55 @@
 
     <title>Card Store</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Wedding Cards</a></li>
+                <li><a href="#">Birthday Cards</a></li>
+                <li><a href="#">Cake Boxes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <h1>Welcome to Our Card Store</h1>
     </header>
 
-    <section class="cards">
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elegant, Creative, and Personalized Cards for Every Occasion</h1>
+            <a href="#cards" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="cards" id="cards">
+        <!-- Wedding Card -->
         <div class="card">
-            <img src="wedding-card.jpg" alt="Wedding Card">
+            <img src="images/wedding-card.jpg" alt="Wedding Card">
             <h2>Wedding Cards</h2>
             <p>Elegant wedding invitations for your special day.</p>
+            <p class="price">$20.00</p>
+            <button class="buy-button">Buy Now</button>
         </div>
 
+        <!-- Birthday Card -->
         <div class="card">
-            <img src="birthday-card.jpg" alt="Birthday Card">
+            <img src="images/birthday-card.jpg" alt="Birthday Card">
             <h2>Birthday Cards</h2>
             <p>Creative and fun birthday cards for all ages.</p>
+            <p class="price">$10.00</p>
+            <button class="buy-button">Buy Now</button>
         </div>
 
+        <!-- Cake Box -->
         <div class="card">
-            <img src="cake-box.jpg" alt="Cake Box">
+            <img src="images/cake-box.jpg" alt="Cake Box">
             <h2>Cake Boxes</h2>
             <p>Beautiful cake boxes to match any occasion.</p>
+            <p class="price">$15.00</p>
+            <button class="buy-button">Buy Now</button>
         </div>
     </section>
 
@@ -40,53 +66,3 @@
     </footer>
 </body>
 </html>
-<div class="card">
-    <img src="images/wedding-card.jpg" alt="Wedding Card">
-    <h2>Wedding Cards</h2>
-    <p>Elegant wedding invitations for your special day.</p>
-    <p class="price">$20.00</p>
-    <button class="buy-button">Buy Now</button>
-</div>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Wedding Cards</a></li>
-            <li><a href="#">Birthday Cards</a></li>
-            <li><a href="#">Cake Boxes</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<section class="hero">
-    <div class="hero-content">
-        <h1>Welcome to Our Card Store</h1>
-        <p>Elegant, creative, and personalized cards for every occasion.</p>
-        <a href="#cards" class="cta-button">Shop Now</a>
-    </div>
-</section>
-<section class="cards" id="cards">
-    <div class="card">
-        <img src="images/wedding-card.jpg" alt="Wedding Card">
-        <h2>Wedding Cards</h2>
-        <p>Elegant wedding invitations for your special day.</p>
-        <p class="price">$20.00</p>
-        <button class="buy-button">Buy Now</button>
-    </div>
-
-    <div class="card">
-        <img src="images/birthday-card.jpg" alt="Birthday Card">
-        <h2>Birthday Cards</h2>
-        <p>Creative and fun birthday cards for all ages.</p>
-        <p class="price">$10.00</p>
-        <button class="buy-button">Buy Now</button>
-    </div>
-
-    <div class="card">
-        <img src="images/cake-box.jpg" alt="Cake Box">
-        <h2>Cake Boxes</h2>
-        <p>Beautiful cake boxes to match any occasion.</p>
-        <p class="price">$15.00</p>
-        <button class="buy-button">Buy Now</button>
-    </div>
-</section>
